@@ -4,14 +4,14 @@ A data-driven machine learning project designed to predict fair and competitive 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 In a bustling metropolitan area like Daegu, setting the right price for residential properties is critical. Overpricing causes units to stagnate on the market, while underpricing results in substantial financial loss for sellers. 
 
 This project solves this dilemma by building a predictive regression model that analyzes a combination of internal attributes (e.g., unit size, build year) and external location factors (e.g., proximity to public transit, neighborhood facilities) to determine a property's fair market value.
 
 ---
 
-## 🚀 Key Features & Analytic Approach
+## Key Features & Analytic Approach
 
 The end-to-end Machine Learning pipeline implemented in this project follows a structured methodology:
 
@@ -33,7 +33,7 @@ The end-to-end Machine Learning pipeline implemented in this project follows a s
 
 ---
 
-## 📊 Dataset & Attributes
+## Dataset & Attributes
 
 The target variable for this regression task is **`SalePrice`** (Apartment Market Value). The model leverages diverse architectural and geographical features:
 
@@ -46,13 +46,13 @@ The target variable for this regression task is **`SalePrice`** (Apartment Marke
 
 ---
 
-## 📈 Key Outcomes & Model Performance
+## Key Outcomes & Model Performance
 * The finalized **XGBoost Regressor** model demonstrated superior generalizing capabilities during validation, significantly reducing both absolute and percentage errors compared to standard baselines.
 * The model pipelines and structural weights were successfully compiled and exported into a binary deployment package (**`xgboost_daegu_apartment_model.pkl`**) via Python’s `pickle` library, ensuring seamless serialization for future application integration.
 
 ---
 
-## 💡 Strategic Business Recommendations
+## Strategic Business Recommendations
 
 ### 1. Deployment for Real Estate Portals
 * Integrate the serialized `.pkl` model into an interactive pricing tool for real estate agents or secondary market sellers to automatically recommend competitive initial listing prices based on objective asset data.
@@ -66,7 +66,7 @@ The target variable for this regression task is **`SalePrice`** (Apartment Marke
 
 ---
 
-## 🛠️ Requirements & Technical Stack
+## Requirements & Technical Stack
 
 The core ecosystem for this project is entirely built in Python:
 
